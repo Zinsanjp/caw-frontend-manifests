@@ -28,7 +28,7 @@ On a GitHub-hosted Ubuntu runner: Node 22.23.4, `yarn install --frozen-lockfile`
 
 The source is the upstream `GilgameshCaw/Caw` master at `97cd13f3`, plus a small set of local changes that move the frontend settings from build time to runtime. Those changes are not published here.
 
-The same inputs gave the same manifest hash on a VPS and on the runner, with Node 22.12.0, 22.23.4 and 24.22.2, with and without dependency install scripts.
+Two runs of this build gave the same manifest hash. In earlier tests with a different version string, a VPS and the runner gave the same hash with Node 22.12.0, 22.23.4 and 24.22.2, with and without dependency install scripts.
 
 ## Limits
 
